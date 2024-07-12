@@ -9,7 +9,7 @@ export default defineConfig({
       name: 'microFront03',
       filename: 'remoteEntry.js',
       exposes: {
-        './Menu': './src/Menu',
+        './Menu': './src/App',
       },
       shared: ['react', 'react-dom'],
     })
